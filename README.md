@@ -115,7 +115,7 @@ A graphical interface that gives the user total control over the cropping window
     ```
 2.  **Run the script:**
     ```bash
-    python auto_crop_hybrid.py
+    python3 IMGcrop_union_rough.py
     ```
 3.  **Input Path:** Paste the path to `My_Experiment_Root`.
 4.  **Output:** A new folder `My_Experiment_Root_cleaned` will be created automatically.
