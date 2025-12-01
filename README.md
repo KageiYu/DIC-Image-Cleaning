@@ -41,6 +41,7 @@ This script calculates the **"Maximum Envelope"** (Union) of the film's movement
   * ✅ **Safe:** Guarantees the film (and its apex) is never cut off.
   * ✅ **Stable:** Keeps the coordinate system consistent for DIC.
   * ⚠️ **Noise:** Will retain black background in frames where the film is flat/undeformed.
+<img width="1466" height="762" alt="union" src="https://github.com/user-attachments/assets/c90dd469-7d26-4fe2-909b-ef5fa0f4b1d6" />
 
 -----
 
@@ -63,6 +64,8 @@ This script uses a **"Best of Both Worlds"** logic to maximize image data densit
   * ✅ **Clean:** Removes black edges from the top and sides aggressively.
   * ✅ **Apex-Safe:** Preserves the downward bending curve.
   * ⚠️ **Risk:** If the sample drifts significantly to the left/right, the "Intersection" logic might slice off a small sliver of the static film edge.
+
+<img width="1452" height="755" alt="hybrid" src="https://github.com/user-attachments/assets/403a6977-7ce1-4c3c-9c2a-8fffcaf1bdd2" />
 
 -----
 
@@ -91,7 +94,7 @@ A graphical interface that gives the user total control over the cropping window
 -----
 
 ## Usage Guide
-
+**Please see the demo video.**
 1.  **Organize your data:** Put your raw images inside subfolders within a root directory.
     ```text
     /My_Experiment_Root
