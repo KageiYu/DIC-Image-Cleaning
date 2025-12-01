@@ -90,6 +90,7 @@ A graphical interface that gives the user total control over the cropping window
   * **Space / Enter:** Confirm selection and start processing.
   * **C:** Clear selection.
   * **Q:** Quit without saving.
+<img width="1181" height="1038" alt="tensiletest" src="https://github.com/user-attachments/assets/fb2d5a97-5a15-4a20-bf8c-672d00749697" />
 
 -----
 
